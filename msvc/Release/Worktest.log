@@ -1,0 +1,32 @@
+﻿  FloatingTextAnimation.cpp
+  Game.cpp
+..\src\Game.cpp(65): warning C4018: '<': signed/unsigned mismatch
+..\src\Game.cpp(100): warning C4018: '<': signed/unsigned mismatch
+..\src\Game.cpp(120): warning C4018: '<': signed/unsigned mismatch
+..\src\Game.cpp(143): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+..\src\Game.cpp(144): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+..\src\Game.cpp(208): warning C4018: '<': signed/unsigned mismatch
+..\src\Game.cpp(204): warning C4101: 'j': unreferenced local variable
+..\src\Game.cpp(247): warning C4018: '<': signed/unsigned mismatch
+..\src\Game.cpp(253): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+..\src\Game.cpp(254): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+..\src\Game.cpp(271): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+..\src\Game.cpp(279): warning C4018: '<': signed/unsigned mismatch
+..\src\Game.cpp(244): warning C4101: 'k': unreferenced local variable
+..\src\Game.cpp(309): warning C4018: '<': signed/unsigned mismatch
+..\src\Game.cpp(315): warning C4018: '<': signed/unsigned mismatch
+..\src\Game.cpp(340): warning C4018: '<': signed/unsigned mismatch
+..\src\Game.cpp(361): warning C4018: '<': signed/unsigned mismatch
+..\src\Game.cpp(379): warning C4018: '<': signed/unsigned mismatch
+..\src\Game.cpp(407): warning C4018: '<': signed/unsigned mismatch
+..\src\Game.cpp(423): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  InputManager.cpp
+..\src\InputManager.cpp(63): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  main.cpp
+  Generating code
+  5 of 1857 functions ( 0.3%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    2 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  Worktest.vcxproj -> C:\Users\Burbi\Documents\Visual Studio 2015\Projects\Worktest\vs2012 base project\bin\Worktest.exe
+  Worktest.vcxproj -> C:\Users\Burbi\Documents\Visual Studio 2015\Projects\Worktest\vs2012 base project\bin\Worktest.pdb (Full PDB)

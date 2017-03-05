@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\kinglib">
+      <UniqueIdentifier>{71369e4a-8c3f-454a-bdba-5c82895475ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\kinglib">
+      <UniqueIdentifier>{6821ade4-45c6-4243-9e66-0f5cdb1a863b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\match3-toolbox">
+      <UniqueIdentifier>{a30e4a28-a7f2-4361-9b4f-20368fe92525}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\actor">
+      <UniqueIdentifier>{53a407dc-ae46-4089-bccf-fc3b959a2fc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\match3-toolbox">
+      <UniqueIdentifier>{cabdcae7-ac0f-478a-8032-fc062f63f735}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\external\include\king\SdlWindow.cpp">
+      <Filter>Source Files\kinglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\include\king\Engine.cpp">
+      <Filter>Source Files\kinglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\include\king\Font.cpp">
+      <Filter>Source Files\kinglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\include\king\GlContext.cpp">
+      <Filter>Source Files\kinglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\include\king\Sdl.cpp">
+      <Filter>Source Files\kinglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\include\king\SdlSurface.cpp">
+      <Filter>Source Files\kinglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\include\match3-toolbox\AnimationManager.cpp">
+      <Filter>Source Files\match3-toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\include\match3-toolbox\DefaultDropper.cpp">
+      <Filter>Source Files\match3-toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\include\match3-toolbox\DefaultMatcher.cpp">
+      <Filter>Source Files\match3-toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\include\match3-toolbox\GravityDropper.cpp">
+      <Filter>Source Files\match3-toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\include\match3-toolbox\HorizontalMatcher.cpp">
+      <Filter>Source Files\match3-toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\include\match3-toolbox\IBoard.cpp">
+      <Filter>Source Files\match3-toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\include\match3-toolbox\IDropRule.cpp">
+      <Filter>Source Files\match3-toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\include\match3-toolbox\IMatchRule.cpp">
+      <Filter>Source Files\match3-toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\include\match3-toolbox\ITile.cpp">
+      <Filter>Source Files\match3-toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\include\match3-toolbox\MatchVO.cpp">
+      <Filter>Source Files\match3-toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\include\match3-toolbox\SeriesTickAnimation.cpp">
+      <Filter>Source Files\match3-toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\include\match3-toolbox\State.cpp">
+      <Filter>Source Files\match3-toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\include\match3-toolbox\StateMachine.cpp">
+      <Filter>Source Files\match3-toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\include\match3-toolbox\TickAnimation.cpp">
+      <Filter>Source Files\match3-toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\include\match3-toolbox\TileDropper.cpp">
+      <Filter>Source Files\match3-toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\include\match3-toolbox\TileMatcher.cpp">
+      <Filter>Source Files\match3-toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\include\match3-toolbox\TileWaypointVO.cpp">
+      <Filter>Source Files\match3-toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\include\match3-toolbox\VerticalMatcher.cpp">
+      <Filter>Source Files\match3-toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Actor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\InputManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SlideAnimation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DestructionAnimation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FloatingTextAnimation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\include\match3-toolbox\DefaultBoard.cpp">
+      <Filter>Source Files\match3-toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\include\match3-toolbox\DefaultTile.cpp">
+      <Filter>Source Files\match3-toolbox</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\external\include\king\Engine.h">
+      <Filter>Header Files\kinglib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\include\king\Font.h">
+      <Filter>Header Files\kinglib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\include\king\GlContext.h">
+      <Filter>Header Files\kinglib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\include\king\Sdl.h">
+      <Filter>Header Files\kinglib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\include\king\SdlSurface.h">
+      <Filter>Header Files\kinglib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\include\king\SdlWindow.h">
+      <Filter>Header Files\kinglib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\include\king\Updater.h">
+      <Filter>Header Files\kinglib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\include\match3-toolbox\AnimationManager.h">
+      <Filter>Header Files\match3-toolbox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\include\match3-toolbox\DefaultDropper.h">
+      <Filter>Header Files\match3-toolbox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\include\match3-toolbox\DefaultMatcher.h">
+      <Filter>Header Files\match3-toolbox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\include\match3-toolbox\GravityDropper.h">
+      <Filter>Header Files\match3-toolbox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\include\match3-toolbox\HorizontalMatcher.h">
+      <Filter>Header Files\match3-toolbox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\include\match3-toolbox\IBoard.h">
+      <Filter>Header Files\match3-toolbox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\include\match3-toolbox\IDropRule.h">
+      <Filter>Header Files\match3-toolbox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\include\match3-toolbox\IMatchRule.h">
+      <Filter>Header Files\match3-toolbox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\include\match3-toolbox\ITile.h">
+      <Filter>Header Files\match3-toolbox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\include\match3-toolbox\MatchVO.h">
+      <Filter>Header Files\match3-toolbox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\include\match3-toolbox\SeriesTickAnimation.h">
+      <Filter>Header Files\match3-toolbox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\include\match3-toolbox\State.h">
+      <Filter>Header Files\match3-toolbox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\include\match3-toolbox\StateMachine.h">
+      <Filter>Header Files\match3-toolbox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\include\match3-toolbox\TickAnimation.h">
+      <Filter>Header Files\match3-toolbox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\include\match3-toolbox\TileDropper.h">
+      <Filter>Header Files\match3-toolbox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\include\match3-toolbox\TileMatcher.h">
+      <Filter>Header Files\match3-toolbox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\include\match3-toolbox\TileWaypointVO.h">
+      <Filter>Header Files\match3-toolbox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\include\match3-toolbox\VerticalMatcher.h">
+      <Filter>Header Files\match3-toolbox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Actor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\InputManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\SlideAnimation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\DestructionAnimation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\FloatingTextAnimation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\include\match3-toolbox\DefaultBoard.h">
+      <Filter>Header Files\match3-toolbox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\include\match3-toolbox\DefaultTile.h">
+      <Filter>Header Files\match3-toolbox</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
